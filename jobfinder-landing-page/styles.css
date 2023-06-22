@@ -1,0 +1,402 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+}
+
+body{
+    margin: 24px 36px;
+    max-width: 100% - 3rem;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links ul{
+    gap: 24px;
+    font-size: 18px;
+}
+
+.links ul li:hover,
+.actions p:hover,
+.socials i:hover{
+    color: #864BD8;
+    cursor: pointer;
+}
+
+.actions{
+    gap: 16px;
+    align-items: center;
+}
+
+.acc-btn{
+    padding: 12px;
+    border: none;
+    border-radius: 34px;
+    background-color: #864BD8;
+    color: white;
+    transition: all 0.2s;
+}
+
+.acc-btn:hover{
+    border: 1px solid #864BD8;
+    background-color: white;
+    color: #864BD8;
+    cursor: pointer;
+}
+
+.hero{
+    margin-top: 32px;
+    width: 100%;
+}
+
+.hero-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-grid img{
+    width: 100%;
+}
+
+.hero-content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    width: 100%;
+}
+
+.hero-content h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1;
+}
+
+.hero-content p{
+    font-size: 1rem;
+    text-align: center;
+    color: #5B5A62;
+}
+
+.sb-inp{
+    gap: 8px;
+    align-items: center;
+}
+
+.search-bar{
+    margin-top: 16px;
+    gap: 8px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.search-bar div, .search-bar select{
+    border: 1px solid #f5f4ff;
+    padding: 4px;
+}
+
+.search-bar input{
+    padding: 8px 4px;
+    border: none;
+}
+
+.search-bar button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 34px;
+    background-color: #F57343;
+    color: white;
+}
+
+.search-bar button:hover{
+    border: 1px solid #F57343;
+    background-color: white;
+    color: #F57343;
+    cursor: pointer;
+}
+
+.trending-searches{
+    margin-top: 24px;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.trending-searches ul{
+    gap: 16px;
+    justify-content: center;
+}
+
+.trending-searches ul li{
+    padding: 8px 16px;
+    border: 1px solid #e0e0e9;
+    border-radius: 34px;
+}
+
+.trending-searches ul li:hover{
+    border: 1px solid #a2a2a9;
+    cursor: pointer;
+}
+
+.steps{
+    margin-top: 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.steps ul{
+    gap: 16px;
+    justify-content: center;
+}
+
+.steps ul li{
+    padding: 8px 16px;
+    border: 1px solid #e0e0e9;
+    border-radius: 34px;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+    width: max(24%, 300px);
+}
+
+.steps ul li img{
+    width: 60px;
+}
+
+.steps h3, .jobs-content>h3, .news-letter h3{
+    color: #864BD8;
+    text-transform: uppercase;
+}
+
+.steps h1, .jobs-content>h1, .news-letter h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
+.jobs{
+    margin-top: 32px;
+    padding: 8px 16px;
+}
+
+.jobs svg{
+    width: 4vw;
+}
+
+.jobs-content{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.jobs-grid{
+    margin-top: 32px;
+}
+
+.jobs-list-item{
+    width: max(24%, 300px);
+    height: 45vh;
+    padding: 8px 16px;
+    border: 1px solid #e0e0e9;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 8px;
+    transition: all ease 0.5s;
+}
+
+.jobs-list-item:hover{
+    border: 1px solid #5B5A62;
+    transform: translateY(-15px);
+}
+
+.jobs-list{
+    gap: 16px;
+    justify-content: center;
+}
+
+.job-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.job-tags{
+    gap: 16px;
+}
+
+.job-tags>p:nth-of-type(1){
+    background-color: #f9f9fb;
+    font-weight: 700;
+    padding: 4px 8px;
+    color: #F57343;
+}
+
+.job-tags>p:nth-of-type(2){
+    background-color: #f9f9fb;
+    font-weight: 700;
+    padding: 4px 8px;
+}
+
+.company-info{
+    align-items: center;
+    gap: 8px;
+}
+
+.see-btn{
+    width: max(10%, 100px);
+    margin: 16px auto;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 34px;
+    background-color: #F57343;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    transition: all ease 0.5s;
+}
+
+.see-btn button{
+    border: none;
+    border-radius: 34px;
+    background-color: #F57343;
+    color: white;
+}
+
+.see-btn:hover{
+   transform: scale(1.2);
+}
+
+.see-btn svg{
+    width: 1.5vw;
+}
+
+.news-letter{
+    border-radius: 8px;
+    background-color: #864BD8;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+    width: 80%;
+    margin-inline: auto;
+    gap: 16px;
+    color: white;
+}
+
+.news-letter div{
+    border-radius: 16px;
+    background-color: white;
+}
+
+.news-letter div input{
+    border: none;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.news-letter div button{
+    border: none;
+    background-color: #FFB200;
+    padding: 8px;
+    border-radius: 16px;
+    color: white;
+    margin: 2px;
+}
+
+.news-letter div button:hover{
+    background-color: #fcbb23;
+    cursor: pointer;
+}
+
+.news-letter h3{color: white;}
+
+.footer
+{
+    margin-top: 10%;
+    justify-content: space-around;
+}
+
+.footer .logo{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.socials{
+    gap: 8px;
+    font-size: 18px;
+}
+
+.links h3{
+    margin-bottom: 16px;
+}
+
+.hamburger{
+    color: #864BD8;
+    font-size: 24px;
+    display: none;
+}
+
+@media screen and (width<800px) {
+    .hamburger{
+        display: block;
+    }
+
+    .navbar .links, .navbar .actions{
+        display: none;
+    }
+}
+
+@media screen and (width<650px) {
+    .footer{
+        flex-direction: column;
+    }
+
+    body{
+        margin: 16px;
+    }
+}
+
+@media screen and (width<550px) {
+    .news-letter :is(h1){
+        font-size: large;
+    }
+}
+
+@media screen and (width<450px) {
+    .news-letter div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-content :is(h1){
+        font-size: large;
+    }
+
+    .hero-content :is(p){
+        font-size: medium;
+    }
+
+    .hero-grid img{
+        display: none;
+    }
+
+    body{
+        margin: 8px;    
+    }
+}

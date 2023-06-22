@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@200&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Job Finder</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar flex">
+            <div class="logo">
+                <img src="src/Logo.png" alt="">
+            </div>
+            <div class="links">
+                <ul class="flex">
+                    <li>Find Jobs</li>
+                    <li>Recent Posts</li>
+                    <li>Company</li>
+                </ul>
+            </div>
+            <div class="actions flex">
+                <p>Log in</p>
+                <button class="acc-btn">Create Account</button>
+            </div>
+            <div class="hamburger"><i class="fa fa-bars"></i></div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-grid">
+            <div class="illustration-1">
+                <img src="src/illustration-1.png" alt="">
+            </div>
+            <div class="hero-content flex">
+                <h1>The home of your dream job</h1>
+                <p>You do not have the right to remain silent… let us know what it takes to challenge you</p>
+                <div class="search-bar flex">
+                    <div class="sb-inp flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="search"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                        <input type="text" placeholder="Job title or keyword">
+                    </div>
+                    <div class="sb-inp flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" id="location"><path fill="#000" fill-rule="evenodd" d="M19 9a6.968 6.968 0 0 1-1.252 3.996h.002l-4.907 7.684a1 1 0 0 1-1.686 0l-4.883-7.653A7 7 0 1 1 19 9Zm-7 4a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" clip-rule="evenodd"></path></svg>
+                        <input type="text" placeholder="Loacation">
+                    </div>
+                    <select name="" id="">
+                        <option value="">Remotely</option>
+                        <option value="">Onsite</option>
+                        <option value="">Hybrid</option>
+                    </select>
+                    <button>Search Job</button>
+                </div>
+            </div>
+            <div class="illustration-2">
+                <img src="src/illustration-2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="trending-searches flex">
+        <h1>Trending Searches</h1>
+        <ul class="flex">
+            <li>Remote Job</li>
+            <li>UI/UX Design</li>
+            <li>Product Design</li>
+            <li>Development</li>
+            <li>Work from Home</li>
+        </ul>
+    </section>
+    <section class="steps flex">
+        <h3>How it Works</h3>
+        <h1>Simple steps to get your next job</h1>
+        <ul class="flex">
+            <li class="flex">
+                <img src="src/icon-register.png" alt="" class="icon-steps">
+                <h2>Register Your Account</h2>
+                <p>Capitalize on low hanging fruit to identify added Override the digital.</p>
+            </li>
+            <li class="flex">
+                <img src="src/icon-resume.png" alt="" class="icon-steps">
+                <h2>Update Resume</h2>
+                <p>Capitalize on low hanging fruit to identify added Override the digital.</p>
+            </li>
+            <li class="flex">
+                <img src="src/icon-apply.png" alt="" class="icon-steps">
+                <h2>Apply for New Jobs</h2>
+                <p>Capitalize on low hanging fruit to identify added Override the digital.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="jobs">
+        <div class="jobs-content flex">
+            <h3>jobs near me</h3>
+            <h1>Featured Jobs</h1>
+            <p>Employee and Employment Company.</p>
+        </div>
+        <div class="jobs-grid">
+            <ul class="jobs-list flex">
+                <li class="jobs-list-item flex">
+                    <div class="company-info flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="gucci"><path fill-rule="evenodd" d="M35 20a10.4 10.4 0 0 1-15 9.31 10.38 10.38 0 1 1 0-18.64A10.43 10.43 0 0 1 35 20Zm-2 0a8.35 8.35 0 0 0-8.34-8.34 8.24 8.24 0 0 0-2.56.34 10.26 10.26 0 0 1 3.32 5.17h-2.14A8.31 8.31 0 0 0 20 13a8.29 8.29 0 0 0-3.25 4.18h-2.14A10.48 10.48 0 0 1 17.94 12a8.67 8.67 0 0 0-2.53-.38 8.34 8.34 0 0 0 0 16.68 8.11 8.11 0 0 0 2.49-.38 10.23 10.23 0 0 1-3.63-7.12h4.94v2H16.8a8.34 8.34 0 0 0 3.21 4 8.34 8.34 0 0 0 3.21-4h-2.41v-2h4.94a10.31 10.31 0 0 1-3.67 7.1 8.48 8.48 0 0 0 2.53.4A8.3 8.3 0 0 0 33 20Z"></path></svg>
+                        <div class="date-posted">
+                            <h3>Gucci</h3>
+                            <p>5 days ago</p>
+                        </div>
+                    </div>
+                    <div class="job-title">Senior UX/UI Developer with strong Designer skills</div>
+                    <div class="job-tags flex">
+                        <p>Oslo, Norway</p>
+                        <p>Part Time</p>
+                    </div>
+                </li>
+                <li class="jobs-list-item flex">
+                    <div class="company-info flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="google"><path fill="#fbbb00" d="M113.47 309.408 95.648 375.94l-65.139 1.378C11.042 341.211 0 299.9 0 256c0-42.451 10.324-82.483 28.624-117.732h.014L86.63 148.9l25.404 57.644c-5.317 15.501-8.215 32.141-8.215 49.456.002 18.792 3.406 36.797 9.651 53.408z"></path><path fill="#518ef8" d="M507.527 208.176C510.467 223.662 512 239.655 512 256c0 18.328-1.927 36.206-5.598 53.451-12.462 58.683-45.025 109.925-90.134 146.187l-.014-.014-73.044-3.727-10.338-64.535c29.932-17.554 53.324-45.025 65.646-77.911h-136.89V208.176h245.899z"></path><path fill="#28b446" d="m416.253 455.624.014.014C372.396 490.901 316.666 512 256 512c-97.491 0-182.252-54.491-225.491-134.681l82.961-67.91c21.619 57.698 77.278 98.771 142.53 98.771 28.047 0 54.323-7.582 76.87-20.818l83.383 68.262z"></path><path fill="#f14336" d="m419.404 58.936-82.933 67.896C313.136 112.246 285.552 103.82 256 103.82c-66.729 0-123.429 42.957-143.965 102.724l-83.397-68.276h-.014C71.23 56.123 157.06 0 256 0c62.115 0 119.068 22.126 163.404 58.936z"></path></svg>
+                        <div class="date-posted">
+                            <h3>Google</h3>
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+                    <div class="job-title">Junior analytic person
+                        with social skills</div>
+
+                    <div class="job-tags flex">
+                        <p>Oslo, Norway</p>
+                        <p>Part Time</p>
+                    </div>
+                </li>
+                <li class="jobs-list-item flex">
+                    <div class="company-info flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756" id="ford"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"></path><path fill="#425e99" d="M96.203 131.732c51.643 0 93.514-15.808 93.514-35.355 0-19.547-41.871-35.415-93.514-35.415-51.703 0-93.574 15.868-93.574 35.415 0 19.548 41.871 35.355 93.574 35.355z"></path><path fill="#fff" d="M96.203 128.112c-49.592 0-89.893-14.118-89.893-31.735 0-17.556 40.301-31.855 89.893-31.855 49.713 0 89.953 14.299 89.953 31.855 0 17.617-40.24 31.735-89.953 31.735z"></path><path fill="#425e99" d="M96.203 125.639c48.084 0 87.117-13.092 87.117-29.262 0-16.108-39.033-29.2-87.117-29.2-48.144 0-87.058 13.092-87.058 29.2.001 16.17 38.914 29.262 87.058 29.262z"></path><path fill="#fff" d="M119.01 102.229c4.102-3.861 6.393-7.903 12.307-7.843 3.559.06 4.463 2.896 5.066 4.103l7.783-13.152h4.766l-12.91 22.866c-.242.482-.846 1.387-.785 2.111.123 1.146 1.57.845 1.027.845 2.594-.121 7.359-5.068 8.506-6.274.24-.303.664-.845.904-.845.242 0 .725.241.725.603 0 .242-.543 1.146-.965 1.689-2.414 3.017-6.395 7.662-10.92 7.783-2.232 0-3.078-.905-3.379-2.654-1.025.904-4.525 2.473-8.084 2.473-2.957-.06-4.164-1.81-4.766-3.197-.543-1.146-.785-2.835-.363-4.524-1.629.845-3.137.965-5.309.905-2.535-.061-4.104-1.207-4.887-4.164-2.896 5.31-3.018 5.49-5.973 11.041h-5.128l6.576-11.161c.846-1.509 1.268-2.715 1.568-3.981.182-.725-.361-1.389-1.146-1.448-.844 0-2.23.845-3.559 2.111 0 0-3.378 3.62-5.852 7.3-2.354 3.5-6.395 7.481-10.799 7.481-3.198 0-6.094-1.749-6.697-5.128 0 0-.302.784-3.138 2.413-.241.12-.844.482-1.024.362-.544-.482-.845-1.086-.906-1.509.181.061.543-.241 1.689-1.146 2.232-1.689 2.715-3.018 2.715-3.018.542-1.146 1.509-2.956 2.172-4.223 1.811-3.62 4.947-7.3 10.075-7.481.845 0 1.086.362 1.267.664.482.362.302 1.086.302 1.086-3.62.543-6.093 2.654-7.602 4.706-.904 1.327-1.87 3.499-2.051 5.067-.362 2.715.905 4.524 2.775 4.947 3.499.543 6.395-1.991 8.688-5.912.604-1.026 1.026-3.681 1.026-5.129s-.785-2.956-1.388-3.56c0-1.025.663-1.689 1.447-1.689.241 0 .483 0 .724.241 1.207 1.207 1.871 3.5 1.871 5.249 0 .604 0 1.207-.121 1.811 2.534-3.077 5.731-7.059 8.206-7.843.482-.241.965-.241 1.447-.241 4.525-.121 3.922 3.982 3.922 3.982 2.412-2.775 4.102-3.801 6.334-3.681 2.414.121 3.258 1.811 3.258 3.138-.061 1.568-1.205 3.378-3.195 3.438-1.752 0-2.777-.845-3.32-2.413-1.146.423-1.688 1.207-1.93 2.775-.363 1.991 1.146 3.56 3.076 3.56 3.319.001 4.768-1.448 5.975-2.534zM122.629 76.227c0 1.931-6.758 5.611-12.49 5.611-8.928 0-18.219-4.284-22.501-5.249-4.646-1.086-8.869-1.991-12.188-1.991-11.644 0-16.833 5.008-16.591 9.593.121 1.87 1.628 3.077 3.861 2.654 2.414-.422 5.792-2.715 6.637-4.706.181-.422.664-.483.845-.362.362.302.241.724.241.724-.302 2.353-3.922 8.869-10.196 8.869-3.499 0-5.852-3.258-5.792-6.456.06-5.973 6.154-12.006 21.176-12.006 2.835 0 6.033.241 9.533.845 4.041.724 14.116 2.413 22.321 2.534 3.018 0 6.879.121 10.016-.362 3.318-.543 2.594-.664 3.922-.664 1.206 0 1.206.483 1.206.966z"></path><path fill="#425e99" d="M131.559 97.222c-2.113-.241-4.768 1.569-6.939 4.224-1.086 1.327-2.232 3.861-2.414 5.369-.24 1.509.182 3.017.725 3.439.543.422 2.957 1.689 6.697-2.111 2.111-2.112 4.162-5.551 4.162-5.551l-.664-.182c1.267-2.352 1.024-4.887-1.567-5.188z"></path><path fill="#fff" d="M87.456 90.103c0 .664.904 1.207 1.689 1.268-.181.663-.121.965-.422.905-1.81 0-2.534-1.75-2.534-1.75-2.412.422-4.765.724-9.532 1.207-12.006 19.427-15.746 22.625-23.107 22.625-5.249 0-9.894-3.439-10.015-9.593-.061-3.74 2.956-8.326 8.567-9.714.664 0 .905.242.905.604 0 .242-.241.543-.785.784-1.629.604-4.464 3.801-4.464 6.758 0 2.232 1.388 4.706 3.74 5.248.664.182 1.268.121 1.871.121 5.852 0 12.428-6.576 19.547-16.591-1.146.06-6.033.604-7.24 1.991-.542.422-.904.181-1.025-.302 0-.121.181-.543.363-.785 1.93-2.172 7.722-2.654 9.109-2.835 5.43-8.326 12.428-13.515 13.876-13.454.241 0 .785.362.543.965-.061.121-.664.784-.904.965-1.207 1.086-5.31 3.741-9.774 11.282 3.62-.181 7.843-.905 7.843-.905s-.241-.784-.241-1.448c.181-2.594 1.689-4.163 3.62-3.861 1.087.181 1.81 1.086 1.81 2.051 0 1.026-.784 2.534-1.569 3.258-.544.421-1.148.844-1.871 1.206z"></path><path fill="#425e99" d="M87.153 88.775s.604.061 1.508-.965c.362-.362.966-1.448.845-2.172-.061-.362-.241-.784-.663-.724-.906.182-1.449.604-1.69 1.509-.301.965-.18 1.629 0 2.352z"></path></g></svg>
+                        <div class="date-posted">
+                            <h3>Ford</h3>
+                            <p>4 days ago</p>
+                        </div>
+                    </div>
+                    <div class="job-title">Graphic designer with wordpress experience</div>
+                    <div class="job-tags flex">
+                        <p>Oslo, Norway</p>
+                        <p>Part Time</p>
+                    </div>
+                </li>
+                <li class="jobs-list-item flex">
+                    <div class="company-info flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="adidas"><path fill="#263238" d="M13.387 7.647 16 12h-4.197L9.308 7.841l-1.89-3.147 1.89-1.136 1.19-.716zM9.308 10.288 10.332 12H6.138L3.809 8.124l-.102-.169.102-.06L6.791 6.1zM3.809 10.568 4.668 12H.471L0 11.214l3.083-1.852z"></path></svg> 
+                        <div class="date-posted">
+                            <h3>Addidas</h3>
+                            <p>5 days ago</p>
+                        </div>
+                    </div>
+                    <div class="job-title">Frontend developer for growing marketplace</div>
+                    <div class="job-tags flex">
+                        <p>Oslo, Norway</p>
+                        <p>Part Time</p>
+                    </div>
+                </li>
+                <li class="jobs-list-item flex">
+                    <div class="company-info flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="gucci"><path fill-rule="evenodd" d="M35 20a10.4 10.4 0 0 1-15 9.31 10.38 10.38 0 1 1 0-18.64A10.43 10.43 0 0 1 35 20Zm-2 0a8.35 8.35 0 0 0-8.34-8.34 8.24 8.24 0 0 0-2.56.34 10.26 10.26 0 0 1 3.32 5.17h-2.14A8.31 8.31 0 0 0 20 13a8.29 8.29 0 0 0-3.25 4.18h-2.14A10.48 10.48 0 0 1 17.94 12a8.67 8.67 0 0 0-2.53-.38 8.34 8.34 0 0 0 0 16.68 8.11 8.11 0 0 0 2.49-.38 10.23 10.23 0 0 1-3.63-7.12h4.94v2H16.8a8.34 8.34 0 0 0 3.21 4 8.34 8.34 0 0 0 3.21-4h-2.41v-2h4.94a10.31 10.31 0 0 1-3.67 7.1 8.48 8.48 0 0 0 2.53.4A8.3 8.3 0 0 0 33 20Z"></path></svg>
+                        <div class="date-posted">
+                            <h3>Gucci</h3>
+                            <p>5 days ago</p>
+                        </div>
+                    </div>
+                    <div class="job-title">Fontend developer for gucci pro</div>
+                    <div class="job-tags flex">
+                        <p>Oslo, Norway</p>
+                        <p>Part Time</p>
+                    </div>
+                </li>
+                <li class="jobs-list-item flex">
+                    <div class="company-info flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756" id="nike"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"></path><path d="M34.175 107.36c-1.488 0-2.653 1.041-2.653 2.56 0 1.52 1.171 2.555 2.653 2.555 1.481 0 2.653-1.042 2.653-2.555 0-1.519-1.166-2.56-2.653-2.56zm0 4.383c-1.061 0-1.848-.775-1.848-1.823 0-1.047.781-1.828 1.848-1.828 1.054 0 1.847.793 1.847 1.828 0 1.029-.8 1.823-1.847 1.823zM59.99 98.406H47.075l1.468-22.448-8.387 22.448H28.163l19.029-50.739h12.761L58.48 70.423l8.546-22.756H79.02L59.99 98.406zM61.548 98.406l19.028-50.739h11.993L73.541 98.406H61.548z"></path><path d="M26.78 80.917c-16.759 19.681-32.568 45.868-18.604 57.927 13.531 11.686 30.444 4.767 41.976.154s138.995-59.965 138.995-59.965c1.23-.615 1-1.384-.538-1-.62.155-138.764 37.593-138.764 37.593-17.53 4.921-37.518-5.804-23.065-34.709z"></path><path d="M34.627 110.1c.372-.018.663-.21.663-.725 0-.664-.434-.831-1.159-.831h-1.042v2.753h.695v-1.172h.117l.633 1.172h.799l-.706-1.197zm-.446-.446h-.396v-.639h.334c.205 0 .44.024.44.291 0 .286-.136.348-.378.348zM154.733 47.512c-1.488 0-2.653 1.042-2.653 2.56 0 1.519 1.172 2.554 2.653 2.554s2.653-1.042 2.653-2.554c.001-1.518-1.164-2.56-2.653-2.56zm0 4.384c-1.061 0-1.848-.775-1.848-1.823 0-1.047.781-1.828 1.848-1.828 1.054 0 1.848.793 1.848 1.828 0 1.029-.8 1.823-1.848 1.823z"></path><path d="M155.186 50.252c.372-.018.664-.21.664-.725 0-.664-.435-.831-1.159-.831h-1.042v2.752h.694v-1.171h.118l.632 1.171h.8l-.707-1.196zm-.447-.446h-.396v-.639h.335c.204 0 .44.025.44.292 0 .285-.137.347-.379.347zM146.831 56.124l3.223-8.457H113.46l-12.565 15.222 5.801-15.222H94.549L75.673 98.406h11.993l8.059-21.218.552 21.218 36.799-.08 3.503-9.76h-13.991l4.597-12.3h11.531l3.548-9.456h-11.531l3.953-10.686h12.145zm-38.656 38.899l-.769-26.445 18.133-19.909-17.364 46.354z"></path></g></svg>
+                        <div class="date-posted">
+                            <h3>Nike</h3>
+                            <p>6 days ago</p>
+                        </div>
+                    </div>
+                    <div class="job-title">Senior UX/UI Developer with strong Designer skills</div>
+                    <div class="job-tags flex">
+                        <p>Oslo, Norway</p>
+                        <p>Part Time</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="see-btn flex">
+                <button class="">See all</button>
+                <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64" id="right-arrow"><path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4" d="M62.56,32l-28-28,28,28-28,28"></path><line x1="1.44" x2="62.56" y1="32" y2="32" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"></line></svg>
+            </div>
+        </div>
+    </section>
+    <section class="news-letter flex">
+        <h3>news letter</h3>
+        <h1>Subscribe News Letter</h1>
+        <div class="input-email">
+            <input type="email" placeholder="Enter your email address">
+            <button>Subscribe</button>
+        </div>
+    </section>
+    <footer class="flex footer">
+        <div class="logo flex">
+            <img src="src/Logo.png" alt="">
+            <div class="socials flex">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Follow our social media</p>
+        </div>
+        <div class="links">
+            <h3>Support</h3>
+            <ul>
+                <li>FAQ</li>
+                <li>How it works</li>
+                <li>Features</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3>Links</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Youtube</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3>Get in Touch</h3>
+            <ul>
+                <li>123 456 778910</li>
+                <li>007 popie, NY, USA</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!-- 
+
+
+
+
+-->
